@@ -22,6 +22,7 @@ module ActionView
         end
 
         state_options += options_for_select(US_STATES.collect(&states_label), selected)
+        return state_options.html_safe if state_options.respond_to?(:html_safe)
         state_options
       end
 
