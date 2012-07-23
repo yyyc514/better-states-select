@@ -1,1 +1,1 @@
-require 'us_states_select'
+require 'better_states_select'

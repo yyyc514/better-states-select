@@ -5,19 +5,19 @@ require 'rake/rdoctask'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "us_states_select"
-    s.summary = %Q{US State select Rails plugin}
-    s.homepage = "http://github.com/thincloud/us-state-select-plugin"
-    s.description = "US State select Rails plugin"
-    s.authors = ["Rick Olson","Larry Sprock"]
+    s.name = "better_states_select"
+    s.summary = %Q{Better State select Rails plugin}
+    s.homepage = "http://github.com/yyyc514/better-states-select"
+    s.description = "Better State select Rails plugin"
+    s.authors = ["Josh Goebel","Rick Olson","Larry Sprock"]
     
     s.add_runtime_dependency "rails", '>= 1.2'
     
     s.files.exclude 'init.rb'
-    s.files.exclude 'us_states_select.gemspec'
+    s.files.exclude 'better_states_select.gemspec'
   end
 rescue LoadError
-  puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
+  puts "Jeweler not available. Install it with: sudo gem install jeweler"
 end
  
 require 'rake/testtask'
