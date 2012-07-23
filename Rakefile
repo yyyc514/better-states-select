@@ -6,9 +6,9 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
     s.name = "better_states_select"
-    s.summary = %Q{Better State select Rails plugin}
+    s.summary = %Q{Better state selection Rails plugin}
     s.homepage = "http://github.com/yyyc514/better-states-select"
-    s.description = "Better State select Rails plugin"
+    s.description = "Better state selection Ruby on Rails plugin"
     s.authors = ["Josh Goebel","Rick Olson","Larry Sprock"]
     
     s.add_runtime_dependency "rails", '>= 1.2'
